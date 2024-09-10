@@ -1,0 +1,18 @@
+<!-- <h1 mat-dialog-title>{{ editMode ? 'Edit Task' : 'Add Task' }}</h1>
+<div mat-dialog-content>
+  <form [formGroup]="taskForm">
+    <mat-form-field appearance="fill">
+      <mat-label>Task Name</mat-label>
+      <input matInput formControlName="taskName" placeholder="Enter task" />
+      <mat-error *ngIf="taskForm.get('taskName').hasError('required')">
+        Task name is required
+      </mat-error>
+    </mat-form-field>
+
+    <mat-checkbox formControlName="isCompleted">Completed</mat-checkbox>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Cancel</button>
+  <button mat-button (click)="onSave()" [disabled]="taskForm.invalid">Save</button>
+</div> -->
